@@ -48,7 +48,13 @@ section:nth-of-type(odd) {
     color: navy;
 } */
 
-
+.view-more {
+    background-color: purple;
+    color: white;
+    border-color:black;
+    border-radius: 10px;
+    max-height:fit-content;
+}
 
 .img-previews {
     display: flex;
