@@ -1,11 +1,11 @@
-body {
-background: cornsilk;
-color: cornsilk;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
-.drawings-title {
-    font-size: 1vw;
-    color:aqua;
+body {
+    background: cornsilk;
+    color: purple;
+    margin: 0;
 }
 
 header {
@@ -13,5 +13,52 @@ header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: purple;
     color: white;
-
 }
+
+section {
+    background: red;
+    color: black;
+    padding: 60px;
+}
+
+section:nth-of-type(odd) {
+    background: green;
+    color: white;
+}
+
+#biography {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    justify-content: center;
+    min-height: 500px;
+    text-align: center;
+    background-color: gray;
+}
+
+.section-title {
+    font-size: 2em;
+    color:black;
+}
+
+.section-title #biography {
+    color: black;
+}
+/* section:nth-of-type(odd) .section-title {
+    color: navy;
+} */
+
+
+
+.img-previews {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.img-previews img {
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+}
+
