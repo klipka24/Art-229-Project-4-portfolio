@@ -3,8 +3,7 @@
 }
 
 body {
-    background: cornsilk;
-    color: purple;
+    background-image: linear-gradient(blue, purple);
     margin: 0;
 }
 
