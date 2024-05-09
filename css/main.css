@@ -42,6 +42,11 @@ section:nth-of-type(odd) {
     color:purple;
 }
 
+.section-title-page {
+    font-size: 2em;
+    color: purple;
+    text-align: center;
+}
 .section-title #biography {
     color: black;
 }
