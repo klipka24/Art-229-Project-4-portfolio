@@ -78,13 +78,21 @@ section:nth-of-type(odd) {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: 1440px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
 }
+
+/* 'margin: 50px; auto;' would also work, when you have two values, the first value governs the top and bottom and the second value governs the left and right */
 
 .img-gallery img{
     max-height: 200px;
     width: 100%;
     max-width: 200px;
-    align: center;
 }
     
 
