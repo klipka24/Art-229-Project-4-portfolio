@@ -93,6 +93,21 @@ section:nth-of-type(odd) {
     width: 100%;
     max-width: 200px;
 }
+
+.footer h1{
+    text-align: left;
+}
+
+.contacts{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* https://texturelabs.org/
+   https://fonts.google.com/  */
+
+
+
     
 
 
